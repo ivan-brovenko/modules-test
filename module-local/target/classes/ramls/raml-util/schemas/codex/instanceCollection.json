@@ -1,0 +1,20 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type" : "object",
+  "additionalProperties" : false,
+  "description" : "Collection of instances",
+  "properties" : {
+    "instances" : {
+      "type" : "array",
+      "description" : "Collection of instances",
+      "items" : {
+        "type" : "object",
+        "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Ccodex%5Cinstance.json"
+      }
+    },
+    "resultInfo" : {
+      "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5CresultInfo.schema"
+    }
+  },
+  "required" : [ "instances", "resultInfo" ]
+}

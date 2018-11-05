@@ -1,0 +1,19 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "description" : "A set of errors",
+  "type" : "object",
+  "properties" : {
+    "errors" : {
+      "description" : "List of errors",
+      "id" : "errors",
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Cerror.schema"
+      }
+    },
+    "total_records" : {
+      "type" : "integer"
+    }
+  }
+}

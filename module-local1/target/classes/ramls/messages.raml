@@ -1,0 +1,35 @@
+#%RAML 1.0
+
+title: message service
+version: v0.1
+baseUri: http://localhost
+mediaType: "application/json"
+
+documentation:
+  - title: Message Service 1 API
+    content: This documents the API calls that can be made to send simple messages
+
+types:
+  message: !include types/message.json
+
+/message1:
+  displayName: MessageService
+  description: Message service
+  get:
+    description: Get message
+    responses:
+      200:
+        body:
+           application/json:
+              description: string
+              type: message
+              example:
+                strict: false
+                value: !include examples/get_200_response.json
+      400:
+       description: Bad Request
+       body:
+        application/json:
+         type: string
+         example: !include examples/error.json
+

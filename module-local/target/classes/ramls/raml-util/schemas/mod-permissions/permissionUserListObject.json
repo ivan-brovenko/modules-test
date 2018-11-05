@@ -1,0 +1,18 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type" : "object",
+  "properties" : {
+    "permissionUsers" : {
+      "type" : "array",
+      "id" : "permissionUsersListObject",
+      "items" : {
+        "type" : "object",
+        "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Cmod-permissions%5CpermissionUser.json"
+      }
+    },
+    "totalRecords" : {
+      "type" : "integer"
+    }
+  },
+  "required" : [ "permissionUsers", "totalRecords" ]
+}

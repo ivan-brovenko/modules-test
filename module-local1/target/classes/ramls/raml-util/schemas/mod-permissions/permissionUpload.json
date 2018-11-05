@@ -1,0 +1,41 @@
+{
+  "title" : "Permissions Definition Schema",
+  "type" : "object",
+  "properties" : {
+    "permissionName" : {
+      "type" : "string"
+    },
+    "displayName" : {
+      "type" : "string"
+    },
+    "id" : {
+      "type" : "string"
+    },
+    "description" : {
+      "type" : "string"
+    },
+    "tags" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "subPermissions" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "mutable" : {
+      "type" : "boolean"
+    },
+    "visible" : {
+      "type" : "boolean"
+    },
+    "metadata" : {
+      "type" : "object",
+      "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local1%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Cmetadata.schema"
+    }
+  },
+  "additionalProperties" : false
+}

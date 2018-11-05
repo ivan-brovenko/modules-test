@@ -1,0 +1,32 @@
+{
+  "id": "${artifactId}-${version}",
+  "name": "Message",
+  "requires": [],
+  "provides": [
+    {
+      "id": "message",
+      "version": "1.0",
+      "handlers": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "pathPattern": "/message",
+          "permissionsRequired": [
+            "module-local1.message1.get"
+          ],
+          "modulePermissions": [
+            "module-local.message.get"
+          ]
+        }
+      ]
+    }
+  ],
+  "permissionSets": [
+    {
+      "permissionName": "module-local1.message1.get",
+      "displayName": "get message",
+      "description": "Get custom message"
+    }
+  ]
+}

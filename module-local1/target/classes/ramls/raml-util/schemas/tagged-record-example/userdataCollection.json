@@ -1,0 +1,24 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type" : "object",
+  "description" : "Collection of users",
+  "properties" : {
+    "users" : {
+      "description" : "List of userdata items",
+      "type" : "array",
+      "id" : "usersData",
+      "items" : {
+        "type" : "object",
+        "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local1%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Ctagged-record-example%5Cuserdata.json"
+      }
+    },
+    "totalRecords" : {
+      "type" : "integer"
+    },
+    "resultInfo" : {
+      "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local1%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5CresultInfo.schema",
+      "readonly" : true
+    }
+  },
+  "required" : [ "users", "totalRecords" ]
+}

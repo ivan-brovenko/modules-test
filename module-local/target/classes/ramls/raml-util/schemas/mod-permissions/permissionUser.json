@@ -1,0 +1,19 @@
+{
+  "type" : "object",
+  "properties" : {
+    "id" : {
+      "type" : "string"
+    },
+    "userId" : {
+      "type" : "string"
+    },
+    "permissions" : {
+      "type" : "array"
+    },
+    "metadata" : {
+      "type" : "object",
+      "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Cmetadata.schema"
+    }
+  },
+  "additionalProperties" : false
+}

@@ -1,0 +1,7 @@
+{
+  "srvcId": "module-local-0.0.1-SNAPSHOT",
+  "nodeId": "10.0.2.15",
+  "launchDescriptor": {
+    "exec": "java -Dport=%p -jar /vagrant/module-local-fat.jar -Dhttp.port=%p embed_postgres=true"
+  }
+}

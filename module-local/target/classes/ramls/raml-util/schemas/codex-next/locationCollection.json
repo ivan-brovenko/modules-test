@@ -1,0 +1,19 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type" : "object",
+  "additionalProperties" : false,
+  "description" : "Collection of locations",
+  "properties" : {
+    "locations" : {
+      "type" : "array",
+      "locations" : {
+        "type" : "object",
+        "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Ccodex-next%5Clocation.json"
+      }
+    },
+    "resultInfo" : {
+      "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5CresultInfo.schema"
+    }
+  },
+  "required" : [ "locations", "resultInfo" ]
+}

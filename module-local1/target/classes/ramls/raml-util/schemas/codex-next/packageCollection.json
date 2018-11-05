@@ -1,0 +1,19 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type" : "object",
+  "additionalProperties" : false,
+  "description" : "Collection of packages",
+  "properties" : {
+    "packages" : {
+      "type" : "array",
+      "packages" : {
+        "type" : "object",
+        "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local1%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Ccodex-next%5Cpackage.json"
+      }
+    },
+    "resultInfo" : {
+      "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local1%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5CresultInfo.schema"
+    }
+  },
+  "required" : [ "packages", "resultInfo" ]
+}

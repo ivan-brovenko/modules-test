@@ -1,0 +1,35 @@
+{
+  "id": "module-local1-0.0.1-SNAPSHOT",
+  "name": "Message1",
+  "requires": [],
+  "provides": [
+    {
+      "id": "message1",
+      "version": "1.0",
+      "handlers": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "pathPattern": "/message1",
+          "permissionsRequired": [
+            "module-local1.message1.get",
+            "module-local.message.get"
+          ]
+        }
+      ]
+    }
+  ],
+  "permissionSets": [
+    {
+      "permissionName": "module-local1.message1.get",
+      "displayName": "get message",
+      "description": "Get custom message"
+    },
+    {
+      "permissionName": "module-local.message.get",
+      "displayName": "get request to module1",
+      "description": "Get request ot module1"
+    }
+  ]
+}

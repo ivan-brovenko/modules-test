@@ -1,0 +1,21 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "description" : "An error",
+  "type" : "object",
+  "properties" : {
+    "message" : {
+      "type" : "string"
+    },
+    "type" : {
+      "type" : "string"
+    },
+    "code" : {
+      "type" : "string"
+    },
+    "parameters" : {
+      "type" : "object",
+      "$ref" : "file:C:%5CUsers%5CIvan_Brovenko%5CDesktop%5Cmodules-local%5Cmodule-local%5Ctarget%5Cclasses%5Cramls%5Craml-util%5Cschemas%5Cparameters.schema"
+    }
+  },
+  "required" : [ "message" ]
+}

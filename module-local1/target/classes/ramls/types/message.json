@@ -1,0 +1,15 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "Message",
+  "description" : "Message model",
+  "javaType" : "org.folio.rest.jaxrs.model.Message",
+  "type" : "object",
+  "additionalProperties" : false,
+  "properties" : {
+    "message" : {
+      "type" : "string",
+      "description" : "message string",
+      "example" : "Some message"
+    }
+  }
+}

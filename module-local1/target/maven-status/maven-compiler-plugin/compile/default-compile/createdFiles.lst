@@ -1,0 +1,6 @@
+org\folio\rest\jaxrs\resource\Message1.class
+org\folio\rest\jaxrs\resource\support\ResponseDelegate.class
+org\folio\rest\jaxrs\model\Message.class
+org\folio\rest\jaxrs\resource\Message1$GetMessage1Response.class
+org\folio\rest\impl\Message1Impl.class
+org\folio\rest\jaxrs\resource\support\ResponseDelegate$HeaderBuilderBase.class

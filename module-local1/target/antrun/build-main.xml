@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <replaceregexp match="baseUri:.+$" replace="baseUri: http://localhost:{http.port}" byline="true">
+    <fileset includes="**/*.raml" dir="C:\Users\Ivan_Brovenko\Desktop\modules-local\module-local1/target/classes/apidocs/raml"/>
+  </replaceregexp>
+</target>
+</project>
